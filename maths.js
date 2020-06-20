@@ -28,7 +28,7 @@ function checkAnswer() {
         }
     }else{
         if(score !=0){score--;}
-        alert(`wroooong! anser is ${answer} or if your number is correct then machine cant understand the number you write. So whos foult that is if you cant write normally? Try again after you learn how to write numbers. o.O`)
+        alert(`wroooong! anser is ${answer} or if your number is correct then machine cant recognize the number you write.`)
         setTimeout(function(){
             backgroundImages.pop();
             document.body.style.backgroundImage = backgroundImages;
